@@ -41,11 +41,11 @@
             </objects>
             <point key="canvasLocation" x="66" y="-2"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="rcf-Ny-W4w">
             <objects>
-                <viewController id="nzM-mE-30W" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" restorationIdentifier="SecondVC" id="5xz-Du-vVW">
+                <viewController storyboardIdentifier="SecondVC" id="nzM-mE-30W" customClass="SecondViewController" customModule="Scene_Trans01" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5xz-Du-vVW">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -56,6 +56,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25m-3N-65O">
+                                <rect key="frame" x="153" y="409" width="88" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="뒤로 가기"/>
+                                <connections>
+                                    <action selector="Back:" destination="nzM-mE-30W" eventType="touchUpInside" id="xWR-O6-dmq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="c2T-41-4cS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

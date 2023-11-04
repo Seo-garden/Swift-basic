@@ -43,3 +43,25 @@ iOS 에서 화면 전환은 다음 두 가지 특성을 가진다.
 ### 4.3.1 화면 전환
 
 뷰 컨트롤러를 통째로 보조 에디터로 드래그하여 @IBOutlet 으로 생성하면 되지 않겠냐 ? -> 뷰 컨트롤러를 참조하려면 스토리보드의 속성값을 이용해야 한다. 
+
+            let uvc = self.storyboard!.instantiateViewController(withIdentifier: "SecondVC")
+
+위의 코드는 self.storyboard 값이 옵셔널타입이다. 경우에 따라 값이 nil 일 수도 있다. 이 값을 nil 검사 없이 강제 해제를 할 경우 만약 self.storyboard 값이 nil 이면 오류가 발생한다.
+
+코드를 보강하면 다음과 같다.
+
+    guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "SecondVC") else {return}
+
+뷰 컨트롤러 인스턴스는 moveNext 메소드 전체 실행에서 비어 있어서는 안되는 필수 조건이기 때문에 guard 조건문으로 필터링하기 좋다.
+
+iOS에서의 화면 전환은 화면 자체가 교체되는 것이 아니라 기존의 화면이 있는 상태에서 새로운 화면이 그 위를 덮는 형태로 이루어지는데, self.present(_:animated:) 메소드(인스턴스가 있다.)가 그렇게 처리를 해주는 것이다. 화면을 복귀할 땐 dismiss(animated:) 메소드를 사용한다.
+
+    
+    전환할 때 : present(_:animated:) or present(_:animated:completion:)
+    복귀할 때 : dismiss(animated:) or dismiss(animated:completion:)
+    
+Unwind : iOS 앱에서 이전 화면으로 돌아가는 것을 Unwind 라고 한다. 추가 참고자료 <https://velog.io/@wansook0316/Unwind-Segue>
+
+### 4.4 내비게이션 컨트롤러를 이용한 화면 전환
+
+내비게이션 컨트롤러는 뷰 컨트롤러의 특별한 종류로, 계층적인 성격을 띠는 콘텐츠 구조를 관리하기 위한 컨트롤러다. 내비게이션 바가 포함되어 있고 뷰 컨트롤러의 전환을 직접 컨트롤하고, 앱의 내비게이션 정보를 표시 하는 역할 뿐만 아니라 화면 전환이 발생하는 뷰 컨트롤러들이 포인터를 스택으로 관리하여 원하는 화면에 접근하기 쉽게 한다. 계층적 구조를 관리하는 역할이기에, 직접 콘텐츠를 담고 화면을 구성하지 않는다.
