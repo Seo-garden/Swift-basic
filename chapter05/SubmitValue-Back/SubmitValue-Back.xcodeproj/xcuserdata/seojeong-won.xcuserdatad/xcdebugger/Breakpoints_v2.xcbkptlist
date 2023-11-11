@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   uuid = "7B53DC2F-EFD7-4ED6-8FED-004F8D25BCEC"
+   uuid = "E40A5C6F-52EA-4B2E-AF54-AACF86B743EE"
    type = "1"
    version = "2.0">
-   <Breakpoints>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C4697F41-32F5-492B-B813-8262995FD720"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SubmitValue-Back/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "ViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-   </Breakpoints>
 </Bucket>
