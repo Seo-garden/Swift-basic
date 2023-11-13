@@ -15,12 +15,17 @@ class FormViewController : UIViewController {
     @IBOutlet var interval: UIStepper!
 
     @IBAction func onSubmit(_ sender: Any) {
-        let ad = UIApplication.shared.delegate as? AppDelegate  //AppDelegate 객체의 인스턴스를 가져온다.
+        let ud = UserDefaults.standard          //UserDefaults 객체의 인스턴스를 가져온다
         
-        ad?.paramEmail = self.email.text
-        ad?.paramUpdate = self.isUpdate.isOn
-        ad?.paramInterval = self.interval.value
+        ud.set(self.email.text, forKey: "email")
+        ud.set(self.isUpdate.isOn, forKey: "isUpdate")
+        ud.set(self.interval.value, forKey: "interval")
         
+//        let ad = UIApplication.shared.delegate as? AppDelegate  //AppDelegate 객체의 인스턴스를 가져온다.
+//        
+//        ad?.paramEmail = self.email.text
+//        ad?.paramUpdate = self.isUpdate.isOn
+//        ad?.paramInterval = self.interval.value
 //        let preVC = self.presentingViewController
 //        guard let vc = preVC as? ViewController else { return }
 //        
@@ -29,7 +34,5 @@ class FormViewController : UIViewController {
 //        vc.paramInterval = self.interval.value
 //
         self.presentingViewController?.dismiss(animated: true)
-        
     }
-    
 }
