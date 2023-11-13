@@ -48,7 +48,7 @@
 
 - 화면 전환을 하는 방법 
 
-## CHAPTER 05 
+## CHAPTER 05 다른 뷰 컨트롤러와 데이터 주고받기
 
 [CHAPTER 05](https://github.com/Seo-garden/iOS-basic/blob/main/chapter05/chapter05.md)
 
