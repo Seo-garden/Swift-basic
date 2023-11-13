@@ -9,20 +9,20 @@
 
 ## 목차
 
-`CHAPTER 01 첫 번째 iOS 앱 만들기`
-`CHAPTER 02 iOS 앱의 구조와 코코아 터치 프레임워크`
-`CHAPTER 03 화면상의 객체를 제어하는 방법`
-`CHAPTER 04 화면 전환`
-`CHAPTER 05 다른 뷰 컨트롤러와 데이터 주고받기`
-`CHAPTER 06 사용자에게 메시지를 전달하는 방법`
-`CHAPTER 07 델리게이트 패턴` 
-`CHAPTER 08 테이블 뷰를 이용한 데이터 목록 구현` 
-`CHAPTER 09 네트워크 통신과 API`
-`CHAPTER 10 테이블 뷰의 동작원리`
-`CHAPTER 11 웹 뷰: 앱에서 웹 페이지를 여는 방법`
-`CHAPTER 12 탭 바 컨트롤러`
-`CHAPTER 13 맵킷 프레임워크 사용하기` 
-`CHAPTER 14 오토 레이아웃` 
+`CHAPTER 01 첫 번째 iOS 앱 만들기`  
+`CHAPTER 02 iOS 앱의 구조와 코코아 터치 프레임워크`  
+`CHAPTER 03 화면상의 객체를 제어하는 방법`  
+`CHAPTER 04 화면 전환`  
+`CHAPTER 05 다른 뷰 컨트롤러와 데이터 주고받기`  
+`CHAPTER 06 사용자에게 메시지를 전달하는 방법`  
+`CHAPTER 07 델리게이트 패턴`  
+`CHAPTER 08 테이블 뷰를 이용한 데이터 목록 구현`   
+`CHAPTER 09 네트워크 통신과 API`  
+`CHAPTER 10 테이블 뷰의 동작원리`  
+`CHAPTER 11 웹 뷰: 앱에서 웹 페이지를 여는 방법`  
+`CHAPTER 12 탭 바 컨트롤러`  
+`CHAPTER 13 맵킷 프레임워크 사용하기`   
+`CHAPTER 14 오토 레이아웃`  
 
 ## CHAPTER 01 첫 번째 iOS 앱 만들기 (https://github.com/Seo-garden/iOS-basic/blob/main/chapter01/chapter01.md)
 
