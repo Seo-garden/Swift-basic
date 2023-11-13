@@ -26,7 +26,7 @@
 
 ## CHAPTER 01 첫 번째 iOS 앱 만들기 
 
-(https://github.com/Seo-garden/iOS-basic/blob/main/chapter01/chapter01.md)
+[CHAPTER 01](https://github.com/Seo-garden/iOS-basic/blob/main/chapter01/chapter01.md)
 
 Xcode 로 새로운 프로젝트를 만들어 Hello World 를 찍어보고 시뮬레이터를 실행하는 등 프로젝트에서 생성되는 파일들의 구성을 확인할 수 있고, 각각 어떤 역할을 하는지 볼 수 있다.
 
