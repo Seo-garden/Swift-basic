@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let update = ud.bool(forKey: "isUpdate")
         resultUpdate.text = (update == true ? "자동갱신" : "자동갱신안함")
         let interval = ud.double(forKey: "interval")
-        resultInterval = "\(Int(interval))분마다"
+//        resultInterval = "\(Int(interval))분마다"
 //        let ad = UIApplication.shared.delegate as? AppDelegate
 //        
 //        if let email = ad?.paramEmail {
