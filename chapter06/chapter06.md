@@ -47,11 +47,14 @@ UserNotification 은 사용자 알림을 처리하기 위한 알림 전용 프�
 
 applicationWillResignActive(_:) 메소드는 앱이 활성화 상태를 잃었을 때 실행되는 메소드다. 앱은 여러 가지 이유로 활성화 상태를 잃고 비활성화 상태로 진입할 수 있는데, 앱을 사용하는 도중 전화가 오거나 SMS가 도착하는 경우, 또는 사용자가 홈 버튼을 눌러 앱을 백그라운드로 내렸을 때가 대표적인 경우이다.
 
-    
+
     알림 권한 설정 > 알림 내용 설정(제목, 내용, 사운드, 뱃지) > 알림 조건 트리거 생성(시간 기반 트리거 or 캘린더 기반 트리거) > 알림 요청 생성 및 예약 > Delegate 구현(사용자에게 어떻게 처리할지)
 
 ### 6.2.3 받은 알림 처리하기
 
-앱이 실행되는 도중에 알림 메시지가 도착할 경우 userNotificationCenter(_:willPresent:withCompletionHandler:) 메소드가 자동 호출된다. 따라서 이 메소드를 구현하면 우리는 앱 실행 도중에 알림 메시지가 도착했는지 알수 이씅며, 원한다면 알림배너를 띄워줄 수도 있다. 앱 실행 중에도 알림 배너를 표시해주고 싶다면 해당 메소드를 구현해주어야 한다. 또한 사용자가 알림 메시지를 실제로 클릭하면 userNofiticationCenter(_:didReceive:withCompletionHandler:) 메소드가 자동으로 호출된다. 앱이 실행되는 중이던 미실행 상태이던 상관없이 동일하다. (이 메소드들은 UNUserNotificationCenterDelegate)프로토콜에 정의되어 있다.
+앱이 실행되는 도중에 알림 메시지가 도착할 경우 userNotificationCenter(_:willPresent:withCompletionHandler:) 메소드가 자동 호출된다. 따라서 이 메소드를 구현하면 우리는 앱 실행 도중에 알림 메시지가 도착했는지 알수 있으며, 원한다면 알림배너를 띄워줄 수도 있다. 앱 실행 중에도 알림 배너를 표시해주고 싶다면 해당 메소드를 구현해주어야 한다. 또한 사용자가 알림 메시지를 실제로 클릭하면 userNofiticationCenter(_:didReceive:withCompletionHandler:) 메소드가 자동으로 호출된다. 앱이 실행되는 중이던 미실행 상태이던 상관없이 동일하다. (이 메소드들은 UNUserNotificationCenterDelegate)프로토콜에 정의되어 있다.
 
  
+    DispatchQueue.main.async{} : 백그라운드에서 실행되는 로직을 메인 쓰레드에서 실행하도록 처리해주는 역할을 한다. iOS의 프로그램 실행 영역은 UI 등의 주요 처리를 담당하는 메인 실행 영역과 그리 중요하지 않은 처리를 담당하는 백그라운드 실행 영역으로 나눠지는데, 대부분의 비동기 클로저 구문은 백그라운드 실행 영역에서 처리된다. 
+    
+
