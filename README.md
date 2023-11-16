@@ -26,7 +26,7 @@
 
 [CHAPTER 01](https://github.com/Seo-garden/iOS-basic/blob/main/chapter01/chapter01.md)
 
-- 새로운 프로젝트에서 생성되는 파일들의 구성을 확인할 수 있고, 각각 어떤 역할을 하는지 볼 수 있다.
+- 프로젝트의 파일 구성과 각각의 역할
 
 ## CHAPTER 02 iOS 앱의 구조와 코코아 터치 프레임워크 
 
