@@ -54,3 +54,11 @@
 
 - 동기, 비동기 방식
 
+
+## CHAPTER 06 사용자에게 메시지를 전달하는 방법
+
+[CHAPTER 06](https://github.com/Seo-garden/iOS-basic/blob/main/chapter06/chapter06.md)
+
+- 메시지창(알림창)
+- 서버알림(푸시알림)
+- UserNotification Framework
