@@ -62,3 +62,11 @@
 - 메시지창(알림창)
 - 서버알림(푸시알림)
 - UserNotification Framework
+
+## CHAPTER 07 Delegate Pattern
+
+[CHAPTER 07](https://github.com/Seo-garden/iOS-basic/blob/main/chapter07/chapter07.md)
+
+- UIImagePickerController
+- 텍스트필드에 델리게이트 패턴 적용
+- extension 델리게이트 패턴 코딩
