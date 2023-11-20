@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Delegate-ImagePicker
+//  MyMovieChart
 //
 //  Created by 서정원 on 11/20/23.
 //

@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		621413232B0B41A200344685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621413222B0B41A200344685 /* AppDelegate.swift */; };
-		621413252B0B41A200344685 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621413242B0B41A200344685 /* SceneDelegate.swift */; };
-		621413272B0B41A200344685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621413262B0B41A200344685 /* ViewController.swift */; };
-		6214132A2B0B41A200344685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 621413282B0B41A200344685 /* Main.storyboard */; };
-		6214132C2B0B41A300344685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6214132B2B0B41A300344685 /* Assets.xcassets */; };
-		6214132F2B0B41A300344685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6214132D2B0B41A300344685 /* LaunchScreen.storyboard */; };
+		62FAC1C72B0B86F500FF3C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FAC1C62B0B86F500FF3C87 /* AppDelegate.swift */; };
+		62FAC1C92B0B86F500FF3C87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FAC1C82B0B86F500FF3C87 /* SceneDelegate.swift */; };
+		62FAC1CB2B0B86F500FF3C87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FAC1CA2B0B86F500FF3C87 /* ViewController.swift */; };
+		62FAC1CE2B0B86F500FF3C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FAC1CC2B0B86F500FF3C87 /* Main.storyboard */; };
+		62FAC1D02B0B86F600FF3C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FAC1CF2B0B86F600FF3C87 /* Assets.xcassets */; };
+		62FAC1D32B0B86F600FF3C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FAC1D12B0B86F600FF3C87 /* LaunchScreen.storyboard */; };
+		62FAC1DB2B0B89C300FF3C87 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FAC1DA2B0B89C300FF3C87 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6214131F2B0B41A200344685 /* Delegate-ImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delegate-ImagePicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		621413222B0B41A200344685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		621413242B0B41A200344685 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		621413262B0B41A200344685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		621413292B0B41A200344685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6214132B2B0B41A300344685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6214132E2B0B41A300344685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		621413302B0B41A300344685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FAC1C32B0B86F500FF3C87 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FAC1C62B0B86F500FF3C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62FAC1C82B0B86F500FF3C87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62FAC1CA2B0B86F500FF3C87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62FAC1CD2B0B86F500FF3C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62FAC1CF2B0B86F600FF3C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62FAC1D22B0B86F600FF3C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62FAC1D42B0B86F600FF3C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FAC1DA2B0B89C300FF3C87 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6214131C2B0B41A200344685 /* Frameworks */ = {
+		62FAC1C02B0B86F500FF3C87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		621413162B0B41A100344685 = {
+		62FAC1BA2B0B86F400FF3C87 = {
 			isa = PBXGroup;
 			children = (
-				621413212B0B41A200344685 /* Delegate-ImagePicker */,
-				621413202B0B41A200344685 /* Products */,
+				62FAC1C52B0B86F500FF3C87 /* MyMovieChart */,
+				62FAC1C42B0B86F500FF3C87 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		621413202B0B41A200344685 /* Products */ = {
+		62FAC1C42B0B86F500FF3C87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6214131F2B0B41A200344685 /* Delegate-ImagePicker.app */,
+				62FAC1C32B0B86F500FF3C87 /* MyMovieChart.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		621413212B0B41A200344685 /* Delegate-ImagePicker */ = {
+		62FAC1C52B0B86F500FF3C87 /* MyMovieChart */ = {
 			isa = PBXGroup;
 			children = (
-				621413222B0B41A200344685 /* AppDelegate.swift */,
-				621413242B0B41A200344685 /* SceneDelegate.swift */,
-				621413262B0B41A200344685 /* ViewController.swift */,
-				621413282B0B41A200344685 /* Main.storyboard */,
-				6214132B2B0B41A300344685 /* Assets.xcassets */,
-				6214132D2B0B41A300344685 /* LaunchScreen.storyboard */,
-				621413302B0B41A300344685 /* Info.plist */,
+				62FAC1C62B0B86F500FF3C87 /* AppDelegate.swift */,
+				62FAC1C82B0B86F500FF3C87 /* SceneDelegate.swift */,
+				62FAC1CA2B0B86F500FF3C87 /* ViewController.swift */,
+				62FAC1CC2B0B86F500FF3C87 /* Main.storyboard */,
+				62FAC1DA2B0B89C300FF3C87 /* ListViewController.swift */,
+				62FAC1CF2B0B86F600FF3C87 /* Assets.xcassets */,
+				62FAC1D12B0B86F600FF3C87 /* LaunchScreen.storyboard */,
+				62FAC1D42B0B86F600FF3C87 /* Info.plist */,
 			);
-			path = "Delegate-ImagePicker";
+			path = MyMovieChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6214131E2B0B41A200344685 /* Delegate-ImagePicker */ = {
+		62FAC1C22B0B86F500FF3C87 /* MyMovieChart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 621413332B0B41A300344685 /* Build configuration list for PBXNativeTarget "Delegate-ImagePicker" */;
+			buildConfigurationList = 62FAC1D72B0B86F600FF3C87 /* Build configuration list for PBXNativeTarget "MyMovieChart" */;
 			buildPhases = (
-				6214131B2B0B41A200344685 /* Sources */,
-				6214131C2B0B41A200344685 /* Frameworks */,
-				6214131D2B0B41A200344685 /* Resources */,
+				62FAC1BF2B0B86F500FF3C87 /* Sources */,
+				62FAC1C02B0B86F500FF3C87 /* Frameworks */,
+				62FAC1C12B0B86F500FF3C87 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Delegate-ImagePicker";
-			productName = "Delegate-ImagePicker";
-			productReference = 6214131F2B0B41A200344685 /* Delegate-ImagePicker.app */;
+			name = MyMovieChart;
+			productName = MyMovieChart;
+			productReference = 62FAC1C32B0B86F500FF3C87 /* MyMovieChart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		621413172B0B41A100344685 /* Project object */ = {
+		62FAC1BB2B0B86F400FF3C87 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					6214131E2B0B41A200344685 = {
+					62FAC1C22B0B86F500FF3C87 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 6214131A2B0B41A200344685 /* Build configuration list for PBXProject "Delegate-ImagePicker" */;
+			buildConfigurationList = 62FAC1BE2B0B86F400FF3C87 /* Build configuration list for PBXProject "MyMovieChart" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 621413162B0B41A100344685;
-			productRefGroup = 621413202B0B41A200344685 /* Products */;
+			mainGroup = 62FAC1BA2B0B86F400FF3C87;
+			productRefGroup = 62FAC1C42B0B86F500FF3C87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6214131E2B0B41A200344685 /* Delegate-ImagePicker */,
+				62FAC1C22B0B86F500FF3C87 /* MyMovieChart */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6214131D2B0B41A200344685 /* Resources */ = {
+		62FAC1C12B0B86F500FF3C87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6214132F2B0B41A300344685 /* LaunchScreen.storyboard in Resources */,
-				6214132C2B0B41A300344685 /* Assets.xcassets in Resources */,
-				6214132A2B0B41A200344685 /* Main.storyboard in Resources */,
+				62FAC1D32B0B86F600FF3C87 /* LaunchScreen.storyboard in Resources */,
+				62FAC1D02B0B86F600FF3C87 /* Assets.xcassets in Resources */,
+				62FAC1CE2B0B86F500FF3C87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6214131B2B0B41A200344685 /* Sources */ = {
+		62FAC1BF2B0B86F500FF3C87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				621413272B0B41A200344685 /* ViewController.swift in Sources */,
-				621413232B0B41A200344685 /* AppDelegate.swift in Sources */,
-				621413252B0B41A200344685 /* SceneDelegate.swift in Sources */,
+				62FAC1CB2B0B86F500FF3C87 /* ViewController.swift in Sources */,
+				62FAC1C72B0B86F500FF3C87 /* AppDelegate.swift in Sources */,
+				62FAC1DB2B0B89C300FF3C87 /* ListViewController.swift in Sources */,
+				62FAC1C92B0B86F500FF3C87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		621413282B0B41A200344685 /* Main.storyboard */ = {
+		62FAC1CC2B0B86F500FF3C87 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				621413292B0B41A200344685 /* Base */,
+				62FAC1CD2B0B86F500FF3C87 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6214132D2B0B41A300344685 /* LaunchScreen.storyboard */ = {
+		62FAC1D12B0B86F600FF3C87 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6214132E2B0B41A300344685 /* Base */,
+				62FAC1D22B0B86F600FF3C87 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		621413312B0B41A300344685 /* Debug */ = {
+		62FAC1D52B0B86F600FF3C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		621413322B0B41A300344685 /* Release */ = {
+		62FAC1D62B0B86F600FF3C87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +289,7 @@
 			};
 			name = Release;
 		};
-		621413342B0B41A300344685 /* Debug */ = {
+		62FAC1D82B0B86F600FF3C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,7 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Delegate-ImagePicker/Info.plist";
+				INFOPLIST_FILE = MyMovieChart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Seo-garden.Delegate-ImagePicker";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seo-garden.MyMovieChart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		621413352B0B41A300344685 /* Release */ = {
+		62FAC1D92B0B86F600FF3C87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Delegate-ImagePicker/Info.plist";
+				INFOPLIST_FILE = MyMovieChart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Seo-garden.Delegate-ImagePicker";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seo-garden.MyMovieChart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,25 +346,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6214131A2B0B41A200344685 /* Build configuration list for PBXProject "Delegate-ImagePicker" */ = {
+		62FAC1BE2B0B86F400FF3C87 /* Build configuration list for PBXProject "MyMovieChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				621413312B0B41A300344685 /* Debug */,
-				621413322B0B41A300344685 /* Release */,
+				62FAC1D52B0B86F600FF3C87 /* Debug */,
+				62FAC1D62B0B86F600FF3C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		621413332B0B41A300344685 /* Build configuration list for PBXNativeTarget "Delegate-ImagePicker" */ = {
+		62FAC1D72B0B86F600FF3C87 /* Build configuration list for PBXNativeTarget "MyMovieChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				621413342B0B41A300344685 /* Debug */,
-				621413352B0B41A300344685 /* Release */,
+				62FAC1D82B0B86F600FF3C87 /* Debug */,
+				62FAC1D92B0B86F600FF3C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 621413172B0B41A100344685 /* Project object */;
+	rootObject = 62FAC1BB2B0B86F400FF3C87 /* Project object */;
 }
