@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MyMovieChart
 //
-//  Created by 서정원 on 11/20/23.
+//  Created by 서정원 on 11/22/23.
 //
 
 import UIKit
