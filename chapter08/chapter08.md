@@ -49,4 +49,7 @@
     tableView(_:cellForRowAt:) // 메소드를 구현하고, 셀 객체를 생성하여 콘텐츠를 구성한 다음 반환한다.
     tableView(_:didSelectRowAt:) // 메소드를 구현하고, 사용자가 셀을 선택했을 때 실행할 액션을 정의한다.
 
-버전이 많이 달라 진행할 수 없다. [UIKit tableViewCell, Custom Cell](https://www.youtube.com/watch?v=bXHinfFMkFw)
+[UIKit tableViewCell, Custom Cell](https://www.youtube.com/watch?v=bXHinfFMkFw)
+
+### 8.4 커스텀 프로토타입 셀
+

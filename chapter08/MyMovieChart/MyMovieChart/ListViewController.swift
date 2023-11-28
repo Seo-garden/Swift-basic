@@ -37,11 +37,10 @@ class ListViewController : UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {   //개별행을 만드는 메소드
         let row = self.list[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListCell")!   //확실하게 아이디를 입력해주었다면 nil 값이 반환될 가능성이 없다.
-        cell.textLabel!.text = row.title
-        
+        cell.textLabel!.text = "asdasd"
         return cell
     }
-    
+
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         NSLog("선택된 행은 \(indexPath.row) 번째 행입니다.")
     }
