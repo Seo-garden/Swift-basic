@@ -101,7 +101,7 @@ present() 와 dismiss() 메소드의 호출 대상은 뷰 컨트롤러의 자신
 화면 전환을 하면서 이전 화면으로 되돌아가는 것을 Unwind 라고 한다. 첫 번쨰 뷰 컨트롤러에서 두 번째 뷰 컨트롤러로 세그웨이로 연결하듯, Unwind 도 그렇게 하면 되지 않을까 ? -> 결론은 안된다. 이는 세그웨이의 특성을 생각해보면 된다. 세그웨이는 목적지가 되는 뷰 컨트롤러의 인스턴스를 자동으로 생성한다. 역방향의 세그웨이를 다시 생성하는 것은 이미 존재하는 뷰 컨트롤러의 인스턴스를 또 다시 만들어 낸다는 의미이다. 동일한 뷰 컨트롤러가 중복되는 것이다. iOS 에서 뷰 컨트롤러의 인스턴스는 싱글톤 패턴이어야 한다.
 
     @IBAction func gotoPage1(unwindSegue: UIStoryboardSegue, towardsViewController : UIViewController) {
-            몇버전부터 바뀐지는 모르겠는데, UIViewController 를 참조해야 된다.
+            몇버전부터 바뀐지는 모르겠는데, UIViewController 를 참조해야 된다. 인자값으로 UIStoryboardSegue 객체를 받아야 함.
     }
 
 ### 4.5.4 커스텀 세그웨이
@@ -120,7 +120,7 @@ present() 와 dismiss() 메소드의 호출 대상은 뷰 컨트롤러의 자신
 
 세그웨이가 실행되기 전에 특정한 메소드를 호출하도록 설계되어 있기 때문에, 화면을 전환하기 전에 필요한 처리를 해줄 수 있다.
 
-    prepare(for segue: UIStoryboardSegue, sender: Any?){
+    prepare(for segue: UIStoryboardSegue, sender: Any?){        호출주체는 우리가 아니다. 우리가 구현해 놓으면 시스템이 호출하는 방식
         ~~~
     }
 
